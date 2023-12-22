@@ -20,7 +20,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-const firebaseApp = initializeApp(firebaseConfig);
+export const firebaseApp = initializeApp(firebaseConfig);
 const googleprovider = new GoogleAuthProvider();
 googleprovider.setCustomParameters({
     prompt: 'select_account',
